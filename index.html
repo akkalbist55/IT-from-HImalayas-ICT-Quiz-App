@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>ITH ICT Quiz</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+	<header role="banner">
+		<h1> <img src="/home/guntu/QUIZ/logo.png" alt="image" class="logo-img">IT from Himalayas ICT Quiz-2019</h1>
+	</header>
+    <main role="main">
+    <section class="start-section">
+			  <p>Welcome to IT from Himalayas ICT Quiz-2019!</p>
+		  	<input type="button" value="Start" class="start-button js-start-button">
+	  </section>
+	
+	  <div class="quiz-box">
+			 <div class="progress-section">
+			    <span class="question-count"></span>
+			    <hr>
+			    
+			    <span class="score-card"></span>
+			 </div>
+
+        <div class="quiz-section">
+		 	  <form class="questions-form">
+				  <p></p>
+				  <label class="options">
+				    <input  id="option-one" type="radio" name="option-one">
+				    <span></span>
+				  </label>
+				   <label class="options">
+				    <input id="option-two" type="radio" name="option-one">
+				    <span></span>
+				  </label>
+				   <label class="options">
+				    <input id="option-three" type="radio" name="option-one">
+				    <span></span>
+				  </label>
+				   <label class="options">
+				    <input id="option-four" type="radio" name="option-one">
+				    <span></span>
+				  </label>
+				  <input type="button" value="Submit Answer" class="submit-button js-submit-button">
+			  </form>	
+			</div>
+		</div>
+
+<section class="feedback-section">
+        <div class="popup-box">
+          <button type="button" class="close-button js-close-button">X</button>
+          <img src="" class="feedback-icon">
+          <span id="popup-text"></span>
+        </div>
+      </section>
+      
+		  <section class="end-section">
+		  	<h4></h4>
+
+        <div class="correct">
+		  	  <img src="/home/guntu/QUIZ/right.png" alt="correct-icon">
+		  	  <span class="count"></span>
+		  	 </div>
+		  	 <div class="wrong">
+		  	   	<img src="/home/guntu/QUIZ/wrong.png" alt="wrong-icon">
+		    	  <span class="count"></span>
+		  	 </div>
+              <input type="button" class="startover-button js-startover-button" value="Start Over">
+		  </section>
+
+
+</main>
+	<script src="https://code.jquery.com/jquery.min.js"></script>
+   <script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
